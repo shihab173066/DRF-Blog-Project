@@ -4,6 +4,8 @@ from rest_framework.response import Response
 from .models import Post
 from .serializers import PostSerializer
 
+# end points
+
 @api_view(['GET'])
 def index(request):
 
